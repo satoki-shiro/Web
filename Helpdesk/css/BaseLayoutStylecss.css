@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+
+/**
+ *------------------------------
+ *  全体領域指定
+ *  最大幅：960px
+ *  表示幅：756px
+ *  file_name: area_base.css
+ *------------------------------
+ */
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  All
+ *  id: container
+ *------------------------------------------------------------------------------------------------
+ */
+div#container {
+    position: relative;
+    
+    width: 960px;
+    margin: 0 auto;
+    background: #FFF;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  Header
+ *  id: header
+ *------------------------------------------------------------------------------------------------
+ */
+
+div#header {
+    height: 38px;
+    background: #e5e5e5;
+    border-bottom: 1px solid #313131;
+    position: relative;
+}
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  Breadcrumbs
+ *  id: breadcrumbs
+ *------------------------------------------------------------------------------------------------
+ */
+#breadcrumbs{
+    border-bottom:1px solid #eee;
+    padding-bottom:0.5em;
+}
+
+#breadcrumbs:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#breadcrumbs ul, #breadcrumbs li {
+    margin: 0;
+    padding: 0;
+}
+
+#breadcrumbs ul {
+    background: gray;
+    list-style: none;
+    width: 100%;
+}
+
+#breadcrumbs li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  Contents
+ *  id: contents
+ *------------------------------------------------------------------------------------------------
+ */
+#contents {
+    position: relative;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid gray;
+    background: #FFF;
+    padding: 10px;
+}
+
+#maincontents {
+}
+
+#subcontents {
+}
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  Footer
+ *  id: footer
+ *------------------------------------------------------------------------------------------------
+ */
+div#footer {
+    position: relative;
+    border-top: 2px solid #fff;
+    padding: 10px;
+    height: 30px;
+    /*background-color: #ddd;*/
+    background: linear-gradient(to bottom, #ddd, #eee) no-repeat;
+}
+

@@ -1,0 +1,138 @@
+﻿@charset "utf-8";
+
+/**
+ *　----------------------------
+ *  全体要素指定 
+ *  file_name: element_base.css
+ *　----------------------------
+ */
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  Initialize
+ *------------------------------------------------------------------------------------------------
+ */
+body, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, ul, li, pre, address, blockquote, form, input, img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+/**
+ *------------------------------------------------------------------------------------------------
+ *  ReDefine
+ *------------------------------------------------------------------------------------------------
+ */
+body {
+    font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size: 84%;
+    line-height: 1.5;
+    color: #353535;
+    /*background-color:#e6e6e6;*/
+    background: linear-gradient(to bottom, #fff, #ddd) no-repeat;
+}
+
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+
+    a:hover {
+        /*background-color:#e5e5e5;*/
+        color: #6F6F6F;
+        text-decoration: none;
+    }
+
+p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+table {
+    border: 1px solid #e6e6e6;
+}
+
+caption {
+    font-weight: bold;
+    text-align: left;
+}
+
+th {
+    vertical-align: top;
+    text-align: left;
+    padding: 0.5em;
+    border: 1px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    background-color: #f0f1f2;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+    padding: 0.5em;
+    border: 1px solid #e6e6e6;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Font Item */
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.emphasis {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.caution {
+    color: #CC0000;
+}
+
+.fontS {
+    font-size: 85%;
+}
+
+.fontL {
+    font-size: 108%;
+}
+
+.fontLL {
+    font-size: 124%;
+}
+
+.fontXL {
+    font-size: 139%;
+}
